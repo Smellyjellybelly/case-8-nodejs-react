@@ -1,0 +1,548 @@
+{
+    "seatings": [
+      {
+        "seatId": 0,
+        "showId": 1, 
+        "row": "A",
+        "seatNumber": 1,
+        "isAvailable": true
+      },
+      {
+        "seatId": 1,
+        "showId": 1,
+        "row": "A",
+        "seatNumber": 2,
+        "isAvailable": true
+      },
+      {
+        "seatId": 2,
+        "showId": 1,  
+        "row": "A",
+        "seatNumber": 3,
+        "isAvailable": true
+      },
+      {
+        "seatId": 3,
+        "showId": 1,
+        "row": "B",
+        "seatNumber": 4,
+        "isAvailable": true
+      },
+      {
+        "seatId": 4,
+        "showId": 1,
+        "row": "B",
+        "seatNumber": 5,
+        "isAvailable": true
+      },
+      {
+        "seatId": 5,
+        "showId": 1,
+        "row": "B",
+        "seatNumber": 6,
+        "isAvailable": true
+      },
+
+
+      {
+        "seatId": 6,
+        "showId": 2, 
+        "row": "A",
+        "seatNumber": 1,
+        "isAvailable": true
+      },
+      {
+        "seatId": 7,
+        "showId": 2,
+        "row": "A",
+        "seatNumber": 2,
+        "isAvailable": true
+      },
+      {
+        "seatId": 8,
+        "showId": 2,  
+        "row": "A",
+        "seatNumber": 3,
+        "isAvailable": true
+      },
+      {
+        "seatId": 9,
+        "showId": 2,
+        "row": "B",
+        "seatNumber": 4,
+        "isAvailable": true
+      },
+      {
+        "seatId": 10,
+        "showId": 2,
+        "row": "B",
+        "seatNumber": 5,
+        "isAvailable": true
+      },
+      {
+        "seatId": 11,
+        "showId": 2,
+        "row": "B",
+        "seatNumber": 6,
+        "isAvailable": true
+      },
+
+
+
+      {
+        "seatId": 12,
+        "showId": 3, 
+        "row": "A",
+        "seatNumber": 1,
+        "isAvailable": true
+      },
+      {
+        "seatId": 13,
+        "showId": 3,
+        "row": "A",
+        "seatNumber": 2,
+        "isAvailable": true
+      },
+      {
+        "seatId": 14,
+        "showId": 3,  
+        "row": "A",
+        "seatNumber": 3,
+        "isAvailable": true
+      },
+      {
+        "seatId": 15,
+        "showId": 3,
+        "row": "B",
+        "seatNumber": 4,
+        "isAvailable": true
+      },
+      {
+        "seatId": 16,
+        "showId": 3,
+        "row": "B",
+        "seatNumber": 5,
+        "isAvailable": true
+      },
+      {
+        "seatId": 17,
+        "showId": 3,
+        "row": "B",
+        "seatNumber": 6,
+        "isAvailable": true
+      },
+
+
+
+      {
+        "seatId": 18,
+        "showId": 4, 
+        "row": "A",
+        "seatNumber": 1,
+        "isAvailable": true
+      },
+      {
+        "seatId": 19,
+        "showId": 4,
+        "row": "A",
+        "seatNumber": 2,
+        "isAvailable": true
+      },
+      {
+        "seatId": 20,
+        "showId": 4,  
+        "row": "A",
+        "seatNumber": 3,
+        "isAvailable": true
+      },
+      {
+        "seatId": 21,
+        "showId": 4,
+        "row": "B",
+        "seatNumber": 4,
+        "isAvailable": true
+      },
+      {
+        "seatId": 22,
+        "showId": 4,
+        "row": "B",
+        "seatNumber": 5,
+        "isAvailable": true
+      },
+      {
+        "seatId": 23,
+        "showId": 4,
+        "row": "B",
+        "seatNumber": 6,
+        "isAvailable": true
+      },
+
+
+
+      {
+        "seatId": 24,
+        "showId": 5, 
+        "row": "A",
+        "seatNumber": 1,
+        "isAvailable": true
+      },
+      {
+        "seatId": 25,
+        "showId": 5,
+        "row": "A",
+        "seatNumber": 2,
+        "isAvailable": true
+      },
+      {
+        "seatId": 26,
+        "showId": 5,  
+        "row": "A",
+        "seatNumber": 3,
+        "isAvailable": true
+      },
+      {
+        "seatId": 27,
+        "showId": 5,
+        "row": "B",
+        "seatNumber": 4,
+        "isAvailable": true
+      },
+      {
+        "seatId": 28,
+        "showId": 5,
+        "row": "B",
+        "seatNumber": 5,
+        "isAvailable": true
+      },
+      {
+        "seatId": 29,
+        "showId": 5,
+        "row": "B",
+        "seatNumber": 6,
+        "isAvailable": true
+      },
+
+
+
+      {
+        "seatId": 30,
+        "showId": 6, 
+        "row": "A",
+        "seatNumber": 1,
+        "isAvailable": true
+      },
+      {
+        "seatId": 31,
+        "showId": 6,
+        "row": "A",
+        "seatNumber": 2,
+        "isAvailable": true
+      },
+      {
+        "seatId": 32,
+        "showId": 6,  
+        "row": "A",
+        "seatNumber": 3,
+        "isAvailable": true
+      },
+      {
+        "seatId": 33,
+        "showId": 6,
+        "row": "B",
+        "seatNumber": 4,
+        "isAvailable": true
+      },
+      {
+        "seatId": 34,
+        "showId": 6,
+        "row": "B",
+        "seatNumber": 5,
+        "isAvailable": true
+      },
+      {
+        "seatId": 35,
+        "showId": 6,
+        "row": "B",
+        "seatNumber": 6,
+        "isAvailable": true
+      },
+
+
+
+      {
+        "seatId": 36,
+        "showId": 7, 
+        "row": "A",
+        "seatNumber": 1,
+        "isAvailable": true
+      },
+      {
+        "seatId": 37,
+        "showId": 7,
+        "row": "A",
+        "seatNumber": 2,
+        "isAvailable": true
+      },
+      {
+        "seatId": 38,
+        "showId": 7,  
+        "row": "A",
+        "seatNumber": 3,
+        "isAvailable": true
+      },
+      {
+        "seatId": 39,
+        "showId": 7,
+        "row": "B",
+        "seatNumber": 4,
+        "isAvailable": true
+      },
+      {
+        "seatId": 40,
+        "showId": 7,
+        "row": "B",
+        "seatNumber": 5,
+        "isAvailable": true
+      },
+      {
+        "seatId": 41,
+        "showId": 7,
+        "row": "B",
+        "seatNumber": 6,
+        "isAvailable": true
+      },
+
+
+
+      {
+        "seatId": 42,
+        "showId": 8, 
+        "row": "A",
+        "seatNumber": 1,
+        "isAvailable": true
+      },
+      {
+        "seatId": 43,
+        "showId": 8,
+        "row": "A",
+        "seatNumber": 2,
+        "isAvailable": true
+      },
+      {
+        "seatId": 44,
+        "showId": 8,  
+        "row": "A",
+        "seatNumber": 3,
+        "isAvailable": true
+      },
+      {
+        "seatId": 45,
+        "showId": 8,
+        "row": "B",
+        "seatNumber": 4,
+        "isAvailable": true
+      },
+      {
+        "seatId": 46,
+        "showId": 8,
+        "row": "B",
+        "seatNumber": 5,
+        "isAvailable": true
+      },
+      {
+        "seatId": 47,
+        "showId": 8,
+        "row": "B",
+        "seatNumber": 6,
+        "isAvailable": true
+      },
+
+
+
+      {
+        "seatId": 48,
+        "showId": 9, 
+        "row": "A",
+        "seatNumber": 1,
+        "isAvailable": true
+      },
+      {
+        "seatId": 49,
+        "showId": 9,
+        "row": "A",
+        "seatNumber": 2,
+        "isAvailable": true
+      },
+      {
+        "seatId": 50,
+        "showId": 9,  
+        "row": "A",
+        "seatNumber": 3,
+        "isAvailable": true
+      },
+      {
+        "seatId": 51,
+        "showId": 9,
+        "row": "B",
+        "seatNumber": 4,
+        "isAvailable": true
+      },
+      {
+        "seatId": 52,
+        "showId": 9,
+        "row": "B",
+        "seatNumber": 5,
+        "isAvailable": true
+      },
+      {
+        "seatId": 53,
+        "showId": 9,
+        "row": "B",
+        "seatNumber": 6,
+        "isAvailable": true
+      },
+
+
+
+      {
+        "seatId": 54,
+        "showId": 10, 
+        "row": "A",
+        "seatNumber": 1,
+        "isAvailable": true
+      },
+      {
+        "seatId": 55,
+        "showId": 10,
+        "row": "A",
+        "seatNumber": 2,
+        "isAvailable": true
+      },
+      {
+        "seatId": 56,
+        "showId": 10,  
+        "row": "A",
+        "seatNumber": 3,
+        "isAvailable": true
+      },
+      {
+        "seatId": 57,
+        "showId": 10,
+        "row": "B",
+        "seatNumber": 4,
+        "isAvailable": true
+      },
+      {
+        "seatId": 58,
+        "showId": 10,
+        "row": "B",
+        "seatNumber": 5,
+        "isAvailable": true
+      },
+      {
+        "seatId": 59,
+        "showId": 10,
+        "row": "B",
+        "seatNumber": 6,
+        "isAvailable": true
+      },
+
+
+
+      {
+        "seatId": 60,
+        "showId": 11, 
+        "row": "A",
+        "seatNumber": 1,
+        "isAvailable": true
+      },
+      {
+        "seatId": 61,
+        "showId": 11,
+        "row": "A",
+        "seatNumber": 2,
+        "isAvailable": true
+      },
+      {
+        "seatId": 62,
+        "showId": 11,  
+        "row": "A",
+        "seatNumber": 3,
+        "isAvailable": true
+      },
+      {
+        "seatId": 63,
+        "showId": 11,
+        "row": "B",
+        "seatNumber": 4,
+        "isAvailable": true
+      },
+      {
+        "seatId": 64,
+        "showId": 11,
+        "row": "B",
+        "seatNumber": 5,
+        "isAvailable": true
+      },
+      {
+        "seatId": 65,
+        "showId": 11,
+        "row": "B",
+        "seatNumber": 6,
+        "isAvailable": true
+      },
+
+
+
+      {
+        "seatId": 66,
+        "showId": 12, 
+        "row": "A",
+        "seatNumber": 1,
+        "isAvailable": true
+      },
+      {
+        "seatId": 67,
+        "showId": 12,
+        "row": "A",
+        "seatNumber": 2,
+        "isAvailable": true
+      },
+      {
+        "seatId": 68,
+        "showId": 12,  
+        "row": "A",
+        "seatNumber": 3,
+        "isAvailable": true
+      },
+      {
+        "seatId": 69,
+        "showId": 12,
+        "row": "B",
+        "seatNumber": 4,
+        "isAvailable": true
+      },
+      {
+        "seatId": 70,
+        "showId": 12,
+        "row": "B",
+        "seatNumber": 5,
+        "isAvailable": true
+      },
+      {
+        "seatId": 71,
+        "showId": 12,
+        "row": "B",
+        "seatNumber": 6,
+        "isAvailable": true
+      },
+      {
+        "seatId": 72,
+        "showId": 12, 
+        "row": "A",
+        "seatNumber": 1,
+        "isAvailable": true
+      }
+    ]
+  }
+  

@@ -1,22 +1,23 @@
-import './App.css';
 import { useEffect, useState } from "react";
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 import Navbar from './Components/Navbar';
 import Home from './Pages/Home';
 import About from './Pages/About';
+// import Search from './Pages/Search';
 
 
 function App() {
 
-  const [message, setMessage] = useState('');
+  const [movies, setMovies] = useState([]); // Add state for movies
 
   useEffect(() => {
-    fetch("http://localhost:3123")
-      .then(res => res.json())
-      .then(data => setMessage(data))
-      .catch(err => console.log(err));
-  }, [])
+    // Fetch movies from your API endpoint
+    fetch("http://localhost:3123/api/movies")
+      .then((res) => res.json())
+      .then((data) => setMovies(data)) // Store movies in state
+      .catch((err) => console.log(err));
+  }, []);
 
   return (
     <Router>
@@ -30,14 +31,19 @@ function App() {
             <Route path="/About">
               <About />
             </Route>
+          
           </Switch>
 
         </div>
 
         <div>
-          <p>Hello from frontend</p>
-          <p>{message.message}</p>
-        </div>
+            <h2>Movies</h2>
+            <ul>
+              {movies.map((movie) => (
+                <li key={movie.movieid}>{movie.title}</li>
+              ))}
+            </ul>
+          </div>
       </div>
     </Router>
   );

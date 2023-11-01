@@ -1,0 +1,65 @@
+{
+    "shows": [
+      {
+        "showId": 1,
+        "movieId": 0,
+        "showTime": "2023-11-01 14:00"
+      },
+      {
+        "showId": 2,
+        "movieId": 0,
+        "showTime": "2023-11-01 17:00"
+      },
+      {
+        "showId": 3,
+        "movieId": 1,
+        "showTime": "2023-11-01 20:00"
+      },
+      {
+        "showId": 4,
+        "movieId": 1,
+        "showTime": "2023-11-01 23:00"
+      },
+      {
+        "showId": 5,
+        "movieId": 2,
+        "showTime": "2023-11-02 14:00"
+      },
+      {
+        "showId": 6,
+        "movieId": 2,
+        "showTime": "2023-11-02 17:00"
+      },
+      {
+        "showId": 7,
+        "movieId": 3,
+        "showTime": "2023-11-02 20:00"
+      },
+      {
+        "showId": 8,
+        "movieId": 3,
+        "showTime": "2023-11-02 23:00"
+      },
+      {
+        "showId": 9,
+        "movieId": 4,
+        "showTime": "2023-11-02 23:00"
+      },
+      {
+        "showId": 10,
+        "movieId": 4,
+        "showTime": "2023-11-02 23:00"
+      },
+      {
+        "showId": 11,
+        "movieId": 5,
+        "showTime": "2023-11-02 23:00"
+      },
+      {
+        "showId": 12,
+        "movieId": 5,
+        "showTime": "2023-11-02 23:00"
+      }
+    ]
+  }
+  

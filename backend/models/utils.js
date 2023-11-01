@@ -1,6 +1,7 @@
 const fs = require("fs");
 
 const USERS_DB_PATH = "db/users.json";
+const MOVIES_DB_PATH = "db/movies.json";
 
 function getUsersFromDB() {
     const dbData = fs.readFileSync(USERS_DB_PATH, {encoding: "utf-8"});
@@ -12,7 +13,15 @@ function setUsersFromDB(data) {
     fs.writeFileSync(USERS_DB_PATH, str);
 }
 
+function getMovieFromDB() {
+    const dbdata = fs.readFileSync(MOVIES_DB_PATH, {encoding: "utf-8"});
+    return JSON.parse(dbdata);
+}
+
+
+
 module.exports = {
     getUsersFromDB,
-    setUsersFromDB
+    setUsersFromDB,
+    getMovieFromDB
 }

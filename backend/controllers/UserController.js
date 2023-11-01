@@ -28,17 +28,12 @@ function handleGetAllUsers(req, res) {
 
 
 function handleGetUserByUsername(req, res) {
-    if (!Object.values(userSessions).includes(req.query.sessionKey)) {
-        return res.status(401).send("Not authorized");
-    }
 
     const { username } = req.params;
     
     if (!Object.values(userSessions).includes(req.query.sessionKey)) {
         return res.status(401).send("Not authorized");
     }
-
-
 
     const foundUser = UserModel.getUserByUsername(username);
 
