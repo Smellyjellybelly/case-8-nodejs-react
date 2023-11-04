@@ -1,44 +1,45 @@
 {
-    "movies":[ {
+    "movies":[ 
+        {
         "movieid": 0,
         "title": "Blood for Dracula",
         "duration": "1t 43m",
-        "picture": "/Assets/blood.jpg",
+        "picture": "./images/blood.jpg",
         "description": "Udo Kier är Dracula, som i den här filmen enbart kan dricka oskulders blod. Dricker han orent blod spyr han i bakdar. Eftersom alla oskulder har tagit slut i Transylvanien, tar han pick, pack och kista och åker till Italien. Där slår de sig ned på ett stort gods vars ägare (utmärkt spelad av legendariska regissören Vittorio de Sica, som gjorde cykeltjuven) har en uppsättning unga, vackra döttrar. Nu råkar förstås den pilska gårdskarlen ha varit på de flesta av töserna, vilket innebär att det spys en del i badkar. Filmen är så otroligt vacker och vemodig, samtidigt som den är rätt rolig och blodig. Foto och miljö är enastående."
     },
     {
         "movieid": 1,
         "title": "Flesh for Frankenstein",
         "duration": "1t 35m",
-        "picture": "/Assets/flesh.jpg",
+        "picture": "./images/flesh.jpg",
         "description": "Baron von Frankenstein skapar två varelser, en man och en kvinna, vilka genom parning ska forma den perfekta rasen av människor."
     },
     {
         "movieid": 2,
           "title": "The Lords of Salem",
           "duration": "1t 41m",
-          "picture": "/Assets/lords.jpg",
+          "picture": "./images/lords.jpg",
           "description": "När lokalradions DJ Heidi får en mystisk trälåda med en vinylskiva i förutsätter hon att den är ifrån ett rockband som vill sprida sin musik. Det blir till en stor hit bland lyssnarna, men samtidigt släpper musiken loss övernaturliga krafter."   
     },
     {
         "movieid": 3,
         "title": "Melancholia",
         "duration": "2t 15m",
-        "picture": "/Assets/melan.jpg",
+        "picture": "./images/melan.jpg",
         "description": "Medan en planet rusar fram genom rymden, på kollisionskurs med jorden, hanterar två systrar den annalkande domedagen på väldigt olika sätt."
     },
     {
         "movieid": 4,
         "title": "Suspiria",
         "duration": "1t 39m",
-        "picture": "/Assets/sus.jpg",
+        "picture": "./images/sus.jpg",
         "description": "Ovetande om vad som komma skall anländer Suzy Bannion till prestigefulla balletskolan Tanz Dance. Det är sent på kvällen, mitt i ett åskoväder, och hon möts av att en skräckslagen student flyr skolan. När terminen väl kommit igång dröjer det inte länge innan Suzy inser att något är fel, och hennes tid på akademien blir till en övernaturlig mardröm kantad med en rad mystiska mord..."
     },
     {
         "movieid": 5,
         "title": "Shadow of the Vampire",
         "duration": "1t 32m",
-        "picture": "/Assets/shadow.jpg",
+        "picture": "./images/shadow.jpg",
         "description": "Under inspelningen av den tyska klassiska skräckfilmen 'Nosferatu' börjar allt underligare saker inträffa för de inblandade. Delar av besättningen försvinner i samma vända som en av skådespelarna börjar ta sin roll på lite väl stort allvar."
     }
 ]
