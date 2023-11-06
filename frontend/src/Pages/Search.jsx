@@ -1,25 +1,41 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 
 function Search({ movies }) {
-    return (
-      <div className="search-cont">
-        <div className="search">
-       
-          <h1>Movie List</h1>
-          <ul>
-            {movies.map((movie) => (
-              <li key={movie.movieid}>
-                <h2>{movie.title}</h2>
-                <p>Duration: {movie.duration}</p>
+  const [searchTerm, setSearchTerm] = useState("");
+  const [filteredMovies, setFilteredMovies] = useState(movies);
+
+  useEffect(() => {
+    // Filter movies based on the search term
+    const filtered = movies.filter((movie) =>
+      movie.title.toLowerCase().includes(searchTerm.toLowerCase())
+    );
+    setFilteredMovies(filtered);
+  }, [searchTerm, movies]);
+
+  return (
+    <div className="search-cont">
+      <div className="search">
+        <input
+          type="text"
+          placeholder="Sök"
+          value={searchTerm}
+          onChange={(event) => setSearchTerm(event.target.value)}
+        />
+        <ul>
+          {filteredMovies.map((movie) => (
+            <li key={movie.movieId}>
+              <h2>{movie.title}</h2>
+              <p>Längd: {movie.duration}</p>
+              <Link to={`/Moviedetails/${movie.movieId}`}>
                 <img src={movie.picture} alt={movie.title} />
-                <p>{movie.description}</p>
-              </li>
-            ))}
-         </ul>
-        </div> 
+              </Link>
+            </li>
+          ))}
+        </ul>
       </div>
-    )
-  }
-  export default Search;
+    </div>
+  );
+}
 
-
+export default Search;

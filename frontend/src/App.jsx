@@ -6,32 +6,32 @@ import Home from './Pages/Home';
 import About from './Pages/About';
 import Search from './Pages/Search';
 import Showing from "./Pages/Showing";
-// import Booking from "./Pages/Booking";
-
+import MovieDetails from "./Components/MovieDetails";
+import BookPage from "./Components/Bookpage";
 
 function App() {
   const [movies, setMovies] = useState([]);
   const [showsData, setShowsData] = useState([]);
-  const [seatingsData, setSeatingsData] = useState([]); // Define seating data state
+  const [seatingsData, setSeatingsData] = useState([]);
 
   useEffect(() => {
     // Fetch movie data from your backend API
     fetch("http://localhost:3123/api/movies")
       .then((response) => response.json())
       .then((data) => setMovies(data.movies))
-      .catch((error) => console.error("Error fetching movies: ", error));
 
-      fetch("http://localhost:3123/api/shows")
+    fetch("http://localhost:3123/api/shows")
       .then((response) => response.json())
-      .then((data) => setShowsData(data.showsData));
-    
+      .then((data) => setShowsData(data.shows));
+
     fetch("http://localhost:3123/api/seatings")
       .then((response) => response.json())
-      .then((data) => setSeatingsData(data.seatingsData));
+      .then((data) => setSeatingsData(data.seatings));
   }, []);
+  
 
   return (
-    <Router>
+    <Router forceRefresh={true}>
       <div className='app'>
         <Navbar />
         <div className='nav-content'>
@@ -43,14 +43,21 @@ function App() {
               <About />
             </Route>
             <Route path="/Search">
-            <Search movies={movies} showsData={showsData} seatingsData={seatingsData} />
+              <Search movies={movies} />
             </Route>
             <Route path="/Showing">
-              <Showing movies={movies} />
+              <Showing movies={movies} showsData={showsData} />
+            </Route>
+            <Route path="/MovieDetails/:movieId">
+              <MovieDetails movies={movies} />
+            </Route>
+            <Route exact path="/Bookpage/:showId/:movieId"> 
+              <BookPage showsData={showsData} seatingsData={seatingsData} movies={movies} />
             </Route>
           </Switch>
         </div>
       </div>
+      
     </Router>
   );
 }

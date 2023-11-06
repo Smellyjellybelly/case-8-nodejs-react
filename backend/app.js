@@ -20,19 +20,18 @@ const PORT = 3123;
 
 // Define an API endpoint to serve the movie data
 app.get("/api/movies", (req, res) => {
-    // You can send the movie data as a response
-    const movieData = require("./db/movies.json"); // Load the JSON data
+    const movieData = require("./db/movies.json"); 
     res.json(movieData);
 });
 
 app.get("/api/shows", (req, res) => {
-    const showData = require("./db/shows.json");
-    res.json(showData);
+    const showsData = require("./db/shows.json");
+    res.json(showsData);
 });
 
 app.get("/api/seatings", (req, res) => {
-    const seatingData = require("./db/seatings.json");
-    res.json(seatingData);
+    const seatingsData = require("./db/seatings.json");
+    res.json(seatingsData);
 });
 
 
