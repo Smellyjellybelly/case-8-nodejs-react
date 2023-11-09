@@ -3,62 +3,524 @@
       {
         "showId": 1,
         "movieId": 0,
-        "showTime": "2023-11-01 14:00"
+        "showTime": "2023-11-01 14:00",
+        "seats": [
+          {
+            "seatId": 0,
+            "row": "A",
+            "seatNumber": 1,
+            "isAvailable": true
+          },
+          {
+            "seatId": 1,
+            "row": "A",
+            "seatNumber": 2,
+            "isAvailable": true
+          },
+          {
+            "seatId": 2,  
+            "row": "A",
+            "seatNumber": 3,
+            "isAvailable": true
+          },
+          {
+            "seatId": 3,
+            "row": "B",
+            "seatNumber": 4,
+            "isAvailable": true
+          },
+          {
+            "seatId": 4,
+            "row": "B",
+            "seatNumber": 5,
+            "isAvailable": true
+          },
+          {
+            "seatId": 5,
+            "row": "B",
+            "seatNumber": 6,
+            "isAvailable": true
+          }
+        ]
       },
       {
         "showId": 2,
         "movieId": 0,
-        "showTime": "2023-11-01 17:00"
+        "showTime": "2023-11-01 17:00",
+        "seats": [
+          {
+            "seatId": 6,
+            "row": "A",
+            "seatNumber": 1,
+            "isAvailable": true
+          },
+          {
+            "seatId": 7,
+            "row": "A",
+            "seatNumber": 2,
+            "isAvailable": true
+          },
+          {
+            "seatId": 8, 
+            "row": "A",
+            "seatNumber": 3,
+            "isAvailable": true
+          },
+          {
+            "seatId": 9,
+            "row": "B",
+            "seatNumber": 4,
+            "isAvailable": true
+          },
+          {
+            "seatId": 10,
+            "row": "B",
+            "seatNumber": 5,
+            "isAvailable": true
+          },
+          {
+            "seatId": 11,
+            "row": "B",
+            "seatNumber": 6,
+            "isAvailable": true
+          }
+        ]
       },
       {
         "showId": 3,
         "movieId": 1,
-        "showTime": "2023-11-01 20:00"
+        "showTime": "2023-11-01 20:00",
+        "seats": [
+          {
+            "seatId": 12,
+            "row": "A",
+            "seatNumber": 1,
+            "isAvailable": true
+          },
+          {
+            "seatId": 13,
+            "row": "A",
+            "seatNumber": 2,
+            "isAvailable": true
+          },
+          {
+            "seatId": 14,
+            "row": "A",
+            "seatNumber": 3,
+            "isAvailable": true
+          },
+          {
+            "seatId": 15,
+            "row": "B",
+            "seatNumber": 4,
+            "isAvailable": true
+          },
+          {
+            "seatId": 16,
+            "row": "B",
+            "seatNumber": 5,
+            "isAvailable": true
+          },
+          {
+            "seatId": 17,
+            "row": "B",
+            "seatNumber": 6,
+            "isAvailable": true
+          }
+        ]
       },
       {
         "showId": 4,
         "movieId": 1,
-        "showTime": "2023-11-01 23:00"
+        "showTime": "2023-11-01 23:00",
+        "seats": [
+          {
+            "seatId": 18,
+            "row": "A",
+            "seatNumber": 1,
+            "isAvailable": true
+          },
+          {
+            "seatId": 19,
+            "row": "A",
+            "seatNumber": 2,
+            "isAvailable": true
+          },
+          {
+            "seatId": 20,
+            "row": "A",
+            "seatNumber": 3,
+            "isAvailable": true
+          },
+          {
+            "seatId": 21,
+            "row": "B",
+            "seatNumber": 4,
+            "isAvailable": true
+          },
+          {
+            "seatId": 22,
+            "row": "B",
+            "seatNumber": 5,
+            "isAvailable": true
+          },
+          {
+            "seatId": 23,
+            "row": "B",
+            "seatNumber": 6,
+            "isAvailable": true
+          }
+        ]
       },
       {
         "showId": 5,
         "movieId": 2,
-        "showTime": "2023-11-02 14:00"
+        "showTime": "2023-11-02 14:00",
+        "seats": [
+          {
+            "seatId": 24,
+            "row": "A",
+            "seatNumber": 1,
+            "isAvailable": true
+          },
+          {
+            "seatId": 25,
+            "row": "A",
+            "seatNumber": 2,
+            "isAvailable": true
+          },
+          {
+            "seatId": 26,
+            "row": "A",
+            "seatNumber": 3,
+            "isAvailable": true
+          },
+          {
+            "seatId": 27,
+            "row": "B",
+            "seatNumber": 4,
+            "isAvailable": true
+          },
+          {
+            "seatId": 28,
+            "row": "B",
+            "seatNumber": 5,
+            "isAvailable": true
+          },
+          {
+            "seatId": 29,
+            "row": "B",
+            "seatNumber": 6,
+            "isAvailable": true
+          }
+        ]
       },
       {
         "showId": 6,
         "movieId": 2,
-        "showTime": "2023-11-02 17:00"
+        "showTime": "2023-11-02 17:00",
+        "seats": [
+          {
+            "seatId": 30,
+            "row": "A",
+            "seatNumber": 1,
+            "isAvailable": true
+          },
+          {
+            "seatId": 31,
+            "row": "A",
+            "seatNumber": 2,
+            "isAvailable": true
+          },
+          {
+            "seatId": 32,
+            "row": "A",
+            "seatNumber": 3,
+            "isAvailable": true
+          },
+          {
+            "seatId": 33,
+            "row": "B",
+            "seatNumber": 4,
+            "isAvailable": true
+          },
+          {
+            "seatId": 34,
+            "row": "B",
+            "seatNumber": 5,
+            "isAvailable": true
+          },
+          {
+            "seatId": 35,
+            "row": "B",
+            "seatNumber": 6,
+            "isAvailable": true
+          }
+        ]
       },
       {
         "showId": 7,
         "movieId": 3,
-        "showTime": "2023-11-02 20:00"
+        "showTime": "2023-11-02 20:00",
+        "seats": [
+          {
+            "seatId": 36,
+            "row": "A",
+            "seatNumber": 1,
+            "isAvailable": true
+          },
+          {
+            "seatId": 37,
+            "row": "A",
+            "seatNumber": 2,
+            "isAvailable": true
+          },
+          {
+            "seatId": 38,
+            "row": "A",
+            "seatNumber": 3,
+            "isAvailable": true
+          },
+          {
+            "seatId": 39,
+            "row": "B",
+            "seatNumber": 4,
+            "isAvailable": true
+          },
+          {
+            "seatId": 40,
+            "row": "B",
+            "seatNumber": 5,
+            "isAvailable": true
+          },
+          {
+            "seatId": 41,
+            "row": "B",
+            "seatNumber": 6,
+            "isAvailable": true
+          }
+        ]
       },
       {
         "showId": 8,
         "movieId": 3,
-        "showTime": "2023-11-02 23:00"
+        "showTime": "2023-11-02 23:00",
+        "seats": [
+          {
+            "seatId": 42,
+            "row": "A",
+            "seatNumber": 1,
+            "isAvailable": true
+          },
+          {
+            "seatId": 43,
+            "row": "A",
+            "seatNumber": 2,
+            "isAvailable": true
+          },
+          {
+            "seatId": 44,
+            "row": "A",
+            "seatNumber": 3,
+            "isAvailable": true
+          },
+          {
+            "seatId": 45,
+            "row": "B",
+            "seatNumber": 4,
+            "isAvailable": true
+          },
+          {
+            "seatId": 46,
+            "row": "B",
+            "seatNumber": 5,
+            "isAvailable": true
+          },
+          {
+            "seatId": 47,
+            "row": "B",
+            "seatNumber": 6,
+            "isAvailable": true
+          }
+        ]
       },
       {
         "showId": 9,
         "movieId": 4,
-        "showTime": "2023-11-02 23:00"
+        "showTime": "2023-11-02 23:00",
+        "seats": [
+          {
+            "seatId": 48,
+            "row": "A",
+            "seatNumber": 1,
+            "isAvailable": true
+          },
+          {
+            "seatId": 49,
+            "row": "A",
+            "seatNumber": 2,
+            "isAvailable": true
+          },
+          {
+            "seatId": 50,
+            "row": "A",
+            "seatNumber": 3,
+            "isAvailable": true
+          },
+          {
+            "seatId": 51,
+            "row": "B",
+            "seatNumber": 4,
+            "isAvailable": true
+          },
+          {
+            "seatId": 52,
+            "row": "B",
+            "seatNumber": 5,
+            "isAvailable": true
+          },
+          {
+            "seatId": 53,
+            "row": "B",
+            "seatNumber": 6,
+            "isAvailable": true
+          }
+        ]
       },
       {
         "showId": 10,
         "movieId": 4,
-        "showTime": "2023-11-02 23:00"
+        "showTime": "2023-11-02 23:00",
+        "seats": [
+          {
+            "seatId": 54,
+            "row": "A",
+            "seatNumber": 1,
+            "isAvailable": true
+          },
+          {
+            "seatId": 55,
+            "row": "A",
+            "seatNumber": 2,
+            "isAvailable": true
+          },
+          {
+            "seatId": 56, 
+            "row": "A",
+            "seatNumber": 3,
+            "isAvailable": true
+          },
+          {
+            "seatId": 57,
+            "row": "B",
+            "seatNumber": 4,
+            "isAvailable": true
+          },
+          {
+            "seatId": 58,
+            "row": "B",
+            "seatNumber": 5,
+            "isAvailable": true
+          },
+          {
+            "seatId": 59,
+            "row": "B",
+            "seatNumber": 6,
+            "isAvailable": true
+          }
+        ]
       },
       {
         "showId": 11,
         "movieId": 5,
-        "showTime": "2023-11-02 23:00"
+        "showTime": "2023-11-02 23:00",
+        "seats": [
+          {
+            "seatId": 60,
+            "row": "A",
+            "seatNumber": 1,
+            "isAvailable": true
+          },
+          {
+            "seatId": 61,
+            "row": "A",
+            "seatNumber": 2,
+            "isAvailable": true
+          },
+          {
+            "seatId": 62,
+            "row": "A",
+            "seatNumber": 3,
+            "isAvailable": true
+          },
+          {
+            "seatId": 63,
+            "row": "B",
+            "seatNumber": 4,
+            "isAvailable": true
+          },
+          {
+            "seatId": 64,
+            "row": "B",
+            "seatNumber": 5,
+            "isAvailable": true
+          },
+          {
+            "seatId": 65,
+            "row": "B",
+            "seatNumber": 6,
+            "isAvailable": true
+          }
+        ]
       },
       {
         "showId": 12,
         "movieId": 5,
-        "showTime": "2023-11-02 23:00"
+        "showTime": "2023-11-02 23:00",
+        "seats": [
+          {
+            "seatId": 66,
+            "row": "A",
+            "seatNumber": 1,
+            "isAvailable": true
+          },
+          {
+            "seatId": 67,
+            "row": "A",
+            "seatNumber": 2,
+            "isAvailable": true
+          },
+          {
+            "seatId": 68,
+            "row": "A",
+            "seatNumber": 3,
+            "isAvailable": true
+          },
+          {
+            "seatId": 69,
+            "row": "B",
+            "seatNumber": 4,
+            "isAvailable": true
+          },
+          {
+            "seatId": 70,
+            "row": "B",
+            "seatNumber": 5,
+            "isAvailable": true
+          },
+          {
+            "seatId": 71,
+            "row": "B",
+            "seatNumber": 6,
+            "isAvailable": true
+          },
+          {
+            "seatId": 72,
+            "row": "A",
+            "seatNumber": 1,
+            "isAvailable": true
+          }
+        ]
       }
     ]
   }

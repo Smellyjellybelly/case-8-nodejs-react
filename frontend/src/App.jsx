@@ -13,6 +13,7 @@ function App() {
   const [movies, setMovies] = useState([]);
   const [showsData, setShowsData] = useState([]);
   const [seatingsData, setSeatingsData] = useState([]);
+  // const [oldmoviesData, setOldmoviesData] = useState([]);
 
   useEffect(() => {
     // Fetch movie data from your backend API
@@ -27,6 +28,10 @@ function App() {
     fetch("http://localhost:3123/api/seatings")
       .then((response) => response.json())
       .then((data) => setSeatingsData(data.seatings));
+
+    // fetch("http://localhost:3123/api/oldmovies")
+    // .then((response) => response.json())
+    // .then((data) => setOldmoviesData(data.cinema));
   }, []);
   
 
@@ -51,8 +56,9 @@ function App() {
             <Route path="/MovieDetails/:movieId">
               <MovieDetails movies={movies} />
             </Route>
-            <Route exact path="/Bookpage/:showId/:movieId"> 
-              <BookPage showsData={showsData} seatingsData={seatingsData} movies={movies} />
+            <Route path="/Bookpage/:showId/:movieId"> 
+              <BookPage showsData={showsData} movies={movies} />
+             
             </Route>
           </Switch>
         </div>

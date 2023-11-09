@@ -32,6 +32,11 @@ app.get("/api/shows", (req, res) => {
 app.get("/api/seatings", (req, res) => {
     const seatingsData = require("./db/seatings.json");
     res.json(seatingsData);
+
+app.get("/api/oldmovies", (req, res) => {
+    const oldmoviesData = require("/db/oldmovies.json");
+    res.json(oldmoviesData);
+})
 });
 
 

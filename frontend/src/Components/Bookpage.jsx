@@ -1,11 +1,10 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 
-function BookPage({ showsData, seatingsData, movies }) {
+function BookPage({ showsData, movies }) {
   const { showId } = useParams();
 
   const [show, setShow] = useState(null);
-  const [seating, setSeating] = useState(null);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
@@ -13,13 +12,9 @@ function BookPage({ showsData, seatingsData, movies }) {
     const selectedShow = showsData.find((show) => show.showId === parseInt(showId));
     setShow(selectedShow);
 
-    // Find the seating based on showId
-    const selectedSeating = seatingsData.find((seating) => seating.showId === parseInt(showId));
-    setSeating(selectedSeating);
-
     // Mark loading as false once data is loaded
     setLoading(false);
-  }, [showsData, seatingsData, showId]);
+  }, [showsData, showId]);
 
   if (loading) {
     return <div>Loading...</div>;
@@ -33,13 +28,14 @@ function BookPage({ showsData, seatingsData, movies }) {
           <h2>Show ID: {show.showId}</h2>
           <p>Show Time: {show.showTime}</p>
           <p>Movie Title: {movies.find((movie) => movie.movieId === show.movieId)?.title}</p>
-        </div>
-      )}
-      {seating && (
-        <div>
           <h2>Seating Information</h2>
-          <p>Total Seats: {seating.totalSeats}</p>
-          <p>Available Seats: {seating.availableSeats}</p>
+          <ul>
+            {show.seats.map((seat) => (
+              <li key={seat.seatId}>
+                Row: {seat.row}, Seat Number: {seat.seatNumber}, {seat.isAvailable ? 'Available' : 'Booked'}
+              </li>
+            ))}
+          </ul>
         </div>
       )}
       <button>Book Now</button>
