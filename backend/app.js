@@ -29,15 +29,10 @@ app.get("/api/shows", (req, res) => {
     res.json(showsData);
 });
 
-app.get("/api/seatings", (req, res) => {
-    const seatingsData = require("./db/seatings.json");
-    res.json(seatingsData);
-
-app.get("/api/oldmovies", (req, res) => {
-    const oldmoviesData = require("/db/oldmovies.json");
-    res.json(oldmoviesData);
+app.get("/api/bookings", (req, res) => {
+    const bookingsData = require("./db/bookings.json");
+    res.json(bookingsData);
 })
-});
 
 
 
