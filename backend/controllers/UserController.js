@@ -57,26 +57,3 @@ module.exports = {
     handleGetUserByUsername,
     handleSignIn
 }
-
-// const jwt = require("jsonwebtoken");
-// const { secretKey, authenticatewebToken } = require("../models/authenticate.js");
-
-// const Users = require("../models/");
-// const users = new Users();
-
-// function handleSignIn(req, res) {
-//     const name = req.body.name;
-//     const password = req.body.password;
-//     const user = users.login(name, password);
-
-//     if (user.hasOwnProperty("id")) {
-//         const token = jwt.sign({ user }, secretKey, { expiresIn: '1h'});
-//         res.json({user: user, token: token}) ;
-//     } else {
-//         res.json({})
-//     }
-// }
-
-// module.exports = {
-//     handleSignIn
-// }
