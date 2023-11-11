@@ -14,5 +14,24 @@ code {
 }
 
 img {
-  width: 300px;
+  width: 200px;
 }
+
+.search ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 20px;
+  margin: 20px;
+ 
+}
+
+.search ul div {
+ align-items: center;
+  justify-content: center;
+  margin: 20px;
+}
+
+/* .sh-div {
+  flex-direction: row;
+} */

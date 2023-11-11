@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 function Showing({ showsData, movies }) {
   return (
     <div className="showing-container">
-      <ul>
+      <ul className='sh-ul'>
         {showsData?.map((show) => {
           const movie = movies.find((movie) => movie.movieId === show.movieId);
           return (
@@ -21,6 +21,7 @@ function Showing({ showsData, movies }) {
           );
         })}
       </ul>
+     
     </div>
   );
 }

@@ -23,15 +23,18 @@ function Search({ movies }) {
           onChange={(event) => setSearchTerm(event.target.value)}
         />
         <ul>
+          
           {filteredMovies.map((movie) => (
             <li key={movie.movieId}>
+              <div>
               <h2>{movie.title}</h2>
-              <p>Längd: {movie.duration}</p>
               <Link to={`/Moviedetails/${movie.movieId}`}>
                 <img src={movie.picture} alt={movie.title} />
               </Link>
+              </div>
             </li>
           ))}
+          
         </ul>
       </div>
     </div>

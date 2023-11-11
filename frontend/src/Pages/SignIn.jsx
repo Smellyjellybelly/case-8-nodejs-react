@@ -1,12 +1,24 @@
 import React, { useState } from 'react';
+import { useHistory } from 'react-router-dom';
 
 function SignIn({ onSignIn }) {
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
+  const history = useHistory(); // Initialize the history object
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    onSignIn(username, password);
+    // Call the provided onSignIn function
+    const credentials = { username, password };
+    const success = await onSignIn(credentials);
+
+    if (success) {
+      // Store user information in local storage
+      window.localStorage.setItem('username', username);
+
+      // Redirect to a different page after successful sign-in
+      history.push('/home');
+    }
   };
 
   return (
@@ -23,7 +35,7 @@ function SignIn({ onSignIn }) {
           <input type="password" value={password} onChange={(e) => setPassword(e.target.value)} />
         </label>
         <br />
-        <button type="submit">Sign In</button>
+        <button type="submit">Logga in</button>
       </form>
     </div>
   );

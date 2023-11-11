@@ -12,8 +12,7 @@ app.use(cors());
 // in order to receive json data in req.body
 app.use(express.json());
 
-
-app.use(UserRoutes);
+app.use("/api", UserRoutes);
 app.use(MovieRoutes);
 
 const PORT = 3123;

@@ -20,7 +20,11 @@ function handleSignIn(req, res) {
     const sessionKey = crypto.randomBytes(20).toString('base64');
     userSessions[username] = sessionKey;
 
-    res.send({ sessionKey });
+    
+    // Return a success message
+    return res.json({ message: "Signin successful", sessionKey });
+
+    res.send({ sessionKey, username });
 }
 
 function handleGetAllUsers(req, res) {
