@@ -22,9 +22,9 @@ function handleSignIn(req, res) {
 
     
     // Return a success message
-    return res.json({ message: "Signin successful", sessionKey });
+    // return res.json({ message: "Signin successful", sessionKey });
 
-    res.send({ sessionKey, username });
+    res.send({ sessionKey });
 }
 
 function handleGetAllUsers(req, res) {

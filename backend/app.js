@@ -3,6 +3,7 @@ const path = require("path");
 const cors = require("cors");
 const UserRoutes = require("./routes/UserRoutes");
 const MovieRoutes = require("./routes/MovieRoutes");
+const BookingRoutes = require("./routes/BookingRoutes");
 
 const app = express();
 
@@ -12,8 +13,9 @@ app.use(cors());
 // in order to receive json data in req.body
 app.use(express.json());
 
-app.use("/api", UserRoutes);
+app.use(UserRoutes);
 app.use(MovieRoutes);
+app.use(BookingRoutes);
 
 const PORT = 3123;
 
@@ -32,7 +34,5 @@ app.get("/api/bookings", (req, res) => {
     const bookingsData = require("./db/bookings.json");
     res.json(bookingsData);
 })
-
-
 
 app.listen(PORT, () => console.log(`Server is listening on port ${PORT} `));

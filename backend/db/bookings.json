@@ -1,0 +1,12 @@
+{
+    "bookings": [
+        {
+            "bookingId": 1,
+            "movieId": 0,
+            "showId": 0,
+            "bookingTime": "2023-01-01T18:00:00",
+            "user": "user1",
+            "email": "user1@example.com"
+        }
+    ]
+}

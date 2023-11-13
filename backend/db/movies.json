@@ -1,46 +1,640 @@
 {
-    "movies":[ 
+      "movies": [
         {
-        "movieId": 0,
-        "title": "Blood for Dracula",
-        "duration": "1t 43m",
-        "picture": "./images/blood.jpg",
-        "description": "Udo Kier är Dracula, som i den här filmen enbart kan dricka oskulders blod. Dricker han orent blod spyr han i bakdar. Eftersom alla oskulder har tagit slut i Transylvanien, tar han pick, pack och kista och åker till Italien. Där slår de sig ned på ett stort gods vars ägare (utmärkt spelad av legendariska regissören Vittorio de Sica, som gjorde cykeltjuven) har en uppsättning unga, vackra döttrar. Nu råkar förstås den pilska gårdskarlen ha varit på de flesta av töserna, vilket innebär att det spys en del i badkar. Filmen är så otroligt vacker och vemodig, samtidigt som den är rätt rolig och blodig. Foto och miljö är enastående."
-    },
-    {
-        "movieId": 1,
-        "title": "Flesh for Frankenstein",
-        "duration": "1t 35m",
-        "picture": "./images/flesh.jpg",
-        "description": "Baron von Frankenstein skapar två varelser, en man och en kvinna, vilka genom parning ska forma den perfekta rasen av människor."
-    },
-    {
-        "movieId": 2,
+          "movieId": 0,
+          "title": "Blood for Dracula",
+          "duration": "1t 43m",
+          "picture": "/Assets/blood.jpg",
+          "description": "Udo Kier är Dracula, som i den här filmen enbart kan dricka oskulders blod. Dricker han orent blod spyr han i bakdar. Eftersom alla oskulder har tagit slut i Transylvanien, tar han pick, pack och kista och åker till Italien. Där slår de sig ned på ett stort gods vars ägare (utmärkt spelad av legendariska regissören Vittorio de Sica, som gjorde cykeltjuven) har en uppsättning unga, vackra döttrar. Nu råkar förstås den pilska gårdskarlen ha varit på de flesta av töserna, vilket innebär att det spys en del i badkar. Filmen är så otroligt vacker och vemodig, samtidigt som den är rätt rolig och blodig. Foto och miljö är enastående.",
+          "shows": [
+            {
+              "showId": 0,
+              "time": "Måndagar, 18.00",
+              "room": "Kammaren",
+              "seats": [
+                {"seatNumber": "A1", "booked": false},
+                {"seatNumber": "A2", "booked": true},
+                {"seatNumber": "A3", "booked": false},
+                {"seatNumber": "A4", "booked": false},
+                {"seatNumber": "A5", "booked": false}
+              ]
+            },
+            {
+              "showId": 1,
+              "time": "Torsdagar, 20.00",
+              "room": "Salongen",
+              "seats": [
+                {"seatNumber": "B1", "booked": false},
+                {"seatNumber": "B2", "booked": true}
+              ]
+            },
+            {
+              "showId": 2,
+              "time": "Måndagar, 18.00",
+              "room": "Kammaren",
+              "seats": [
+                {"seatNumber": "A1", "booked": false},
+                {"seatNumber": "A2", "booked": true},
+                {"seatNumber": "A3", "booked": false},
+                {"seatNumber": "A4", "booked": false},
+                {"seatNumber": "A5", "booked": false}
+              ]
+            }, 
+            {
+              "showId": 3,
+              "time": "Måndagar, 18.00",
+              "room": "Kammaren",
+              "seats": [
+                {"seatNumber": "A1", "booked": false},
+                {"seatNumber": "A2", "booked": true},
+                {"seatNumber": "A3", "booked": false},
+                {"seatNumber": "A4", "booked": false},
+                {"seatNumber": "A5", "booked": false}
+              ]
+            }
+          ]
+        },
+        {
+          "movieId": 1,
+          "title": "Flesh for Frankenstein",
+          "duration": "1t 35m",
+          "picture": "/Assets/flesh.jpg",
+          "description": "Baron von Frankenstein skapar två varelser, en man och en kvinna, vilka genom parning ska forma den perfekta rasen av människor.",
+          "shows": [
+            {
+              "showId": 4,
+              "time": "tisdagar, 18.00",
+              "room": "Fläcken",
+              "seats": [
+                {"seatNumber": "C1", "booked": true},
+                {"seatNumber": "C2", "booked": false}
+              ]
+            },
+            {
+              "showId": 5,
+              "time": "Måndagar, 18.00",
+              "room": "Kammaren",
+              "seats": [
+                {"seatNumber": "A1", "booked": false},
+                {"seatNumber": "A2", "booked": true},
+                {"seatNumber": "A3", "booked": false},
+                {"seatNumber": "A4", "booked": false},
+                {"seatNumber": "A5", "booked": false}
+              ]
+            },
+            {
+              "showId": 6,
+              "time": "Måndagar, 18.00",
+              "room": "Kammaren",
+              "seats": [
+                {"seatNumber": "A1", "booked": false},
+                {"seatNumber": "A2", "booked": true},
+                {"seatNumber": "A3", "booked": false},
+                {"seatNumber": "A4", "booked": false},
+                {"seatNumber": "A5", "booked": false}
+              ]
+            },
+            {
+              "showId": 7,
+              "time": "Måndagar, 18.00",
+              "room": "Kammaren",
+              "seats": [
+                {"seatNumber": "A1", "booked": false},
+                {"seatNumber": "A2", "booked": true},
+                {"seatNumber": "A3", "booked": false},
+                {"seatNumber": "A4", "booked": false},
+                {"seatNumber": "A5", "booked": false}
+              ]
+            }
+          ]
+        },
+        {
+          "movieId": 2,
+          "title": "Dancer in the Dark",
+          "duration": "2t 20m",
+          "picture": "/Assets/dancer.jpg",
+          "description": "Handlingen i Dancer in the dark tilldrar sig i mitten av 60-talet. Selma, spelad av den isländska popstjärnan Björk, drömmer sig bort från vardagen med hjälp av dans och musik. Men när hon blir bestulen på sina sparpengar, ställs allt på sin spets.",
+          "shows": [
+            {
+              "showId": 8,
+              "time": "Måndagar, 18.00",
+              "room": "Kammaren",
+              "seats": [
+                {"seatNumber": "A1", "booked": false},
+                {"seatNumber": "A2", "booked": true},
+                {"seatNumber": "A3", "booked": false},
+                {"seatNumber": "A4", "booked": false},
+                {"seatNumber": "A5", "booked": false}
+              ]
+            },
+            {
+              "showId": 9,
+              "time": "Måndagar, 18.00",
+              "room": "Kammaren",
+              "seats": [
+                {"seatNumber": "A1", "booked": false},
+                {"seatNumber": "A2", "booked": true},
+                {"seatNumber": "A3", "booked": true},
+                {"seatNumber": "A4", "booked": false},
+                {"seatNumber": "A5", "booked": false}
+              ]
+            },
+            {
+              "showId": 10,
+              "time": "Måndagar, 18.00",
+              "room": "Kammaren",
+              "seats": [
+                {"seatNumber": "A1", "booked": false},
+                {"seatNumber": "A2", "booked": true},
+                {"seatNumber": "A3", "booked": false},
+                {"seatNumber": "A4", "booked": false},
+                {"seatNumber": "A5", "booked": false}
+              ]
+            },
+            {
+              "showId": 11,
+              "time": "Måndagar, 18.00",
+              "room": "Kammaren",
+              "seats": [
+                {"seatNumber": "A1", "booked": false},
+                {"seatNumber": "A2", "booked": true},
+                {"seatNumber": "A3", "booked": false},
+                {"seatNumber": "A4", "booked": false},
+                {"seatNumber": "A5", "booked": false}
+              ]
+            }
+          ]
+        },
+        {
+          "movieId": 3,
+          "title": "Ace Ventura: Pet Detective",
+          "duration": "1t 26m",
+          "picture": "/Assets/ace.jpg",
+          "description": "Den tokige Ace Ventura (Jim Carrey) arbetar som husdjursdetektiv och hjälper bland annat till att hitta försvunna djur. När det amerikanska fotbollslaget Miami Dolphins maskot, delfinen Snowflake, blir stulen strax före Superbowl, misstänker ledningen att det är en kidnappning. Motvilligt kallar de in Ventura, som snart hittar en ledtråd som pekar mot en tidigare amerikansk fotbollsspelare, Ray Finkle, som på grund av ett misstag under ett tidigare Superbowl blivit utstött och som därför vill hämnas på den spelare som i hans tankevärld orsakade misstaget. Den stora frågan är var Finkle gömmer sig.",
+          "shows": [
+            {
+              "showId": 12,
+              "time": "Onsdagar, 18.00",
+              "room": "Fläcken",
+              "seats": [
+                {"seatNumber": "D1", "booked": false},
+                {"seatNumber": "D2", "booked": false}
+              ]
+            },
+            {
+              "showId": 13,
+              "time": "Måndagar, 18.00",
+              "room": "Salongen",
+              "seats": [
+                {"seatNumber": "A1", "booked": false},
+                {"seatNumber": "A2", "booked": true},
+                {"seatNumber": "A3", "booked": false},
+                {"seatNumber": "A4", "booked": false},
+                {"seatNumber": "A5", "booked": false},
+                {"seatNumber": "A6", "booked": false},
+                {"seatNumber": "A7", "booked": false},
+                {"seatNumber": "A8", "booked": false}
+              ]
+            },
+            {
+              "showId": 14,
+              "time": "Måndagar, 18.00",
+              "room": "Kammaren",
+              "seats": [
+                {"seatNumber": "A1", "booked": false},
+                {"seatNumber": "A2", "booked": true},
+                {"seatNumber": "A3", "booked": false},
+                {"seatNumber": "A4", "booked": false},
+                {"seatNumber": "A5", "booked": false}
+              ]
+            },
+            {
+              "showId": 15,
+              "time": "Måndagar, 18.00",
+              "room": "Kammaren",
+              "seats": [
+                {"seatNumber": "A1", "booked": false},
+                {"seatNumber": "A2", "booked": true},
+                {"seatNumber": "A3", "booked": false},
+                {"seatNumber": "A4", "booked": false},
+                {"seatNumber": "A5", "booked": false}
+              ]
+            }
+          ]
+        },
+        {
+          "movieId": 4,
+          "title": "Blade",
+          "duration": "2t",
+          "picture": "/Assets/blade.jpg",
+          "description": "Huvudpersonen Blade, spelad av Wesley Snipes, är till hälften människa och till hälften vampyr – resultatet av att hans mor blev biten strax innan hon skulle föda honom. Modern överlevde inte födseln och åtskilliga år senare stöter Blade på Whistler (Kris Kristofferson), som åtar sig att uppfostra honom. Whistler undertrycker Blades blodtörst genom ett motgift han framställt, och tillsammans bekämpar de vampyrer som livnär sig på människorna.",
+          "shows": [
+            {
+              "showId": 16,
+              "time": "Torsdagar, 18.00",
+              "room": "Kammaren",
+              "seats": [
+                {"seatNumber": "A1", "booked": false},
+                {"seatNumber": "A2", "booked": true},
+                {"seatNumber": "A3", "booked": false},
+                {"seatNumber": "A4", "booked": false},
+                {"seatNumber": "A5", "booked": false},
+                {"seatNumber": "A6", "booked": true}
+              ]
+            },
+            {
+              "showId": 17,
+              "time": "Måndagar, 18.00",
+              "room": "Kammaren",
+              "seats": [
+                {"seatNumber": "A1", "booked": false},
+                {"seatNumber": "A2", "booked": true},
+                {"seatNumber": "A3", "booked": false},
+                {"seatNumber": "A4", "booked": false},
+                {"seatNumber": "A5", "booked": false},
+                {"seatNumber": "A7", "booked": false},
+                {"seatNumber": "A8", "booked": false}
+              ]
+            },
+            {
+              "showId": 18,
+              "time": "Måndagar, 18.00",
+              "room": "Kammaren",
+              "seats": [
+                {"seatNumber": "A1", "booked": false},
+                {"seatNumber": "A2", "booked": true},
+                {"seatNumber": "A3", "booked": false},
+                {"seatNumber": "A4", "booked": false},
+                {"seatNumber": "A5", "booked": false}
+              ]
+            },
+            {
+              "showId": 19,
+              "time": "Måndagar, 18.00",
+              "room": "Kammaren",
+              "seats": [
+                {"seatNumber": "A1", "booked": false},
+                {"seatNumber": "A2", "booked": true},
+                {"seatNumber": "A3", "booked": false},
+                {"seatNumber": "A4", "booked": false},
+                {"seatNumber": "A5", "booked": false}
+              ]
+            }
+          ]
+        },
+        {
+          "movieId": 5,
           "title": "The Lords of Salem",
           "duration": "1t 41m",
-          "picture": "./images/lords.jpg",
-          "description": "När lokalradions DJ Heidi får en mystisk trälåda med en vinylskiva i förutsätter hon att den är ifrån ett rockband som vill sprida sin musik. Det blir till en stor hit bland lyssnarna, men samtidigt släpper musiken loss övernaturliga krafter."   
-    },
-    {
-        "movieId": 3,
-        "title": "Melancholia",
-        "duration": "2t 15m",
-        "picture": "./images/melan.jpg",
-        "description": "Medan en planet rusar fram genom rymden, på kollisionskurs med jorden, hanterar två systrar den annalkande domedagen på väldigt olika sätt."
-    },
-    {
-        "movieId": 4,
-        "title": "Suspiria",
-        "duration": "1t 39m",
-        "picture": "./images/sus.jpg",
-        "description": "Ovetande om vad som komma skall anländer Suzy Bannion till prestigefulla balletskolan Tanz Dance. Det är sent på kvällen, mitt i ett åskoväder, och hon möts av att en skräckslagen student flyr skolan. När terminen väl kommit igång dröjer det inte länge innan Suzy inser att något är fel, och hennes tid på akademien blir till en övernaturlig mardröm kantad med en rad mystiska mord..."
-    },
-    {
-        "movieId": 5,
-        "title": "Shadow of the Vampire",
-        "duration": "1t 32m",
-        "picture": "./images/shadow.jpg",
-        "description": "Under inspelningen av den tyska klassiska skräckfilmen 'Nosferatu' börjar allt underligare saker inträffa för de inblandade. Delar av besättningen försvinner i samma vända som en av skådespelarna börjar ta sin roll på lite väl stort allvar."
-    }
-]
-}
+          "picture": "/Assets/lords.jpg",
+          "description": "När lokalradions DJ Heidi får en mystisk trälåda med en vinylskiva i förutsätter hon att den är ifrån ett rockband som vill sprida sin musik. Det blir till en stor hit bland lyssnarna, men samtidigt släpper musiken loss övernaturliga krafter.",
+          "shows": [
+            {
+              "showId": 20,
+              "time": "Måndagar, 18.00",
+              "room": "Fläcken",
+              "seats": [
+                {"seatNumber": "A1", "booked": false},
+                {"seatNumber": "A2", "booked": true},
+                {"seatNumber": "A3", "booked": false},
+                {"seatNumber": "A4", "booked": false},
+                {"seatNumber": "A5", "booked": false}
+              ]
+            },
+            {
+              "showId": 21,
+              "time": "Måndagar, 18.00",
+              "room": "Kammaren",
+              "seats": [
+                {"seatNumber": "A1", "booked": false},
+                {"seatNumber": "A2", "booked": true},
+                {"seatNumber": "A3", "booked": false},
+                {"seatNumber": "A4", "booked": false},
+                {"seatNumber": "A5", "booked": false}
+              ]
+            },
+            {
+              "showId": 22,
+              "time": "Måndagar, 18.00",
+              "room": "Kammaren",
+              "seats": [
+                {"seatNumber": "A1", "booked": false},
+                {"seatNumber": "A2", "booked": true},
+                {"seatNumber": "A3", "booked": false},
+                {"seatNumber": "A4", "booked": false},
+                {"seatNumber": "A5", "booked": false}
+              ]
+            },
+            {
+              "showId": 23,
+              "time": "Måndagar, 18.00",
+              "room": "Kammaren",
+              "seats": [
+                {"seatNumber": "A1", "booked": false},
+                {"seatNumber": "A2", "booked": true},
+                {"seatNumber": "A3", "booked": false},
+                {"seatNumber": "A4", "booked": false},
+                {"seatNumber": "A5", "booked": false}
+              ]
+            }
+          ]
+        },
+        {
+          "movieId": 6,
+          "title": "Melancholia",
+          "duration": "2t 15m",
+          "picture": "/Assets/melan.jpg",
+          "description": "Medan en planet rusar fram genom rymden, på kollisionskurs med jorden, hanterar två systrar den annalkande domedagen på väldigt olika sätt.",
+          "shows": [
+            {
+              "showId": 24,
+              "time": "Måndagar, 18.00",
+              "room": "Salongen",
+              "seats": [
+                {"seatNumber": "A1", "booked": false},
+                {"seatNumber": "A2", "booked": true},
+                {"seatNumber": "A3", "booked": false},
+                {"seatNumber": "A4", "booked": false},
+                {"seatNumber": "A5", "booked": false}
+              ]
+            },
+            {
+              "showId": 25,
+              "time": "Måndagar, 18.00",
+              "room": "Kammaren",
+              "seats": [
+                {"seatNumber": "A1", "booked": false},
+                {"seatNumber": "A2", "booked": true},
+                {"seatNumber": "A3", "booked": false},
+                {"seatNumber": "A4", "booked": false},
+                {"seatNumber": "A5", "booked": false}
+              ]
+            },
+            {
+              "showId": 26,
+              "time": "Måndagar, 18.00",
+              "room": "Kammaren",
+              "seats": [
+                {"seatNumber": "A1", "booked": false},
+                {"seatNumber": "A2", "booked": true},
+                {"seatNumber": "A3", "booked": false},
+                {"seatNumber": "A4", "booked": false},
+                {"seatNumber": "A5", "booked": false}
+              ]
+            },
+            {
+              "showId": 27,
+              "time": "Måndagar, 18.00",
+              "room": "Kammaren",
+              "seats": [
+                {"seatNumber": "A1", "booked": false},
+                {"seatNumber": "A2", "booked": true},
+                {"seatNumber": "A3", "booked": false},
+                {"seatNumber": "A4", "booked": false},
+                {"seatNumber": "A5", "booked": false}
+              ]
+            }
+          ]
+        },
+        {
+          "movieId": 7,
+          "title": "Mark of the Devil",
+          "duration": "1t 37m",
+          "picture": "/Assets/mark.jpg",
+          "description": "Explicita bilder i denna omskrivna och obehagliga film om häxbränning och tortyr av oskyldiga människor.",
+          "shows": [
+            {
+              "showId": 28,
+              "time": "Måndagar, 18.00",
+              "room": "Kammaren",
+              "seats": [
+                {"seatNumber": "A1", "booked": false},
+                {"seatNumber": "A2", "booked": true},
+                {"seatNumber": "A3", "booked": false},
+                {"seatNumber": "A4", "booked": false},
+                {"seatNumber": "A5", "booked": false}
+              ]
+            },
+            {
+              "showId": 29,
+              "time": "Måndagar, 18.00",
+              "room": "Kammaren",
+              "seats": [
+                {"seatNumber": "A1", "booked": false},
+                {"seatNumber": "A2", "booked": true},
+                {"seatNumber": "A3", "booked": false},
+                {"seatNumber": "A4", "booked": false},
+                {"seatNumber": "A5", "booked": false}
+              ]
+            },
+            {
+              "showId": 30,
+              "time": "Måndagar, 18.00",
+              "room": "Kammaren",
+              "seats": [
+                {"seatNumber": "A1", "booked": false},
+                {"seatNumber": "A2", "booked": true},
+                {"seatNumber": "A3", "booked": false},
+                {"seatNumber": "A4", "booked": false},
+                {"seatNumber": "A5", "booked": false}
+              ]
+            },
+            {
+              "showId": 31,
+              "time": "Måndagar, 18.00",
+              "room": "Kammaren",
+              "seats": [
+                {"seatNumber": "A1", "booked": false},
+                {"seatNumber": "A2", "booked": true},
+                {"seatNumber": "A3", "booked": false},
+                {"seatNumber": "A4", "booked": false},
+                {"seatNumber": "A5", "booked": false}
+              ]
+            }
+          ]
+        },
+        {
+          "movieId": 8,
+          "title": "Trauma",
+          "duration": "1t 24m",
+          "picture": "/Assets/trauma.jpg",
+          "description": "Huset på Straw Hill är en chockerande våldsam och erotisk berättelse om förförelse, brutalitet och hämnd. Kultfilmikonen Udo Kier spelar huvudrollen som en framgångsrik romanförfattare som lider av writer's block, som hyr en lantstuga i hopp om att hitta inspiration. Men ankomsten av en sensuell sekreterare sätter igång en händelsekedja som kulminerar i en ohämmad explosion av sex och vildhet.",
+          "shows": [
+            {
+              "showId": 32,
+              "time": "Måndagar, 18.00",
+              "room": "Fläcken",
+              "seats": [
+                {"seatNumber": "A1", "booked": false},
+                {"seatNumber": "A2", "booked": true},
+                {"seatNumber": "A3", "booked": false},
+                {"seatNumber": "A4", "booked": false},
+                {"seatNumber": "A5", "booked": false}
+              ]
+            },
+            {
+              "showId": 33,
+              "time": "Måndagar, 18.00",
+              "room": "Kammaren",
+              "seats": [
+                {"seatNumber": "A1", "booked": false},
+                {"seatNumber": "A2", "booked": true},
+                {"seatNumber": "A3", "booked": false},
+                {"seatNumber": "A4", "booked": false},
+                {"seatNumber": "A5", "booked": false}
+              ]
+            },
+            {
+              "showId": 34,
+              "time": "Måndagar, 18.00",
+              "room": "Kammaren",
+              "seats": [
+                {"seatNumber": "A1", "booked": false},
+                {"seatNumber": "A2", "booked": true},
+                {"seatNumber": "A3", "booked": false},
+                {"seatNumber": "A4", "booked": false},
+                {"seatNumber": "A5", "booked": false}
+              ]
+            },
+            {
+              "showId": 35,
+              "time": "Måndagar, 18.00",
+              "room": "Kammaren",
+              "seats": [
+                {"seatNumber": "A1", "booked": false},
+                {"seatNumber": "A2", "booked": true},
+                {"seatNumber": "A3", "booked": false},
+                {"seatNumber": "A4", "booked": false},
+                {"seatNumber": "A5", "booked": false}
+              ]
+            }
+          ]
+        },
+        {
+          "movieId": 9,
+          "title": "Suspiria",
+          "duration": "1t 39m",
+          "picture": "/Assets/sus.jpg",
+          "description": "Ovetande om vad som komma skall anländer Suzy Bannion till prestigefulla balletskolan Tanz Dance. Det är sent på kvällen, mitt i ett åskoväder, och hon möts av att en skräckslagen student flyr skolan. När terminen väl kommit igång dröjer det inte länge innan Suzy inser att något är fel, och hennes tid på akademien blir till en övernaturlig mardröm kantad med en rad mystiska mord...",
+          "shows": [
+            {
+              "showId": 36,
+              "time": "Måndagar, 18.00",
+              "room": "Kammaren",
+              "seats": [
+                {"seatNumber": "A1", "booked": false},
+                {"seatNumber": "A2", "booked": true},
+                {"seatNumber": "A3", "booked": false},
+                {"seatNumber": "A4", "booked": false},
+                {"seatNumber": "A5", "booked": false}
+              ]
+            },
+            {
+              "showId": 37,
+              "time": "Måndagar, 18.00",
+              "room": "Kammaren",
+              "seats": [
+                {"seatNumber": "A1", "booked": false},
+                {"seatNumber": "A2", "booked": true},
+                {"seatNumber": "A3", "booked": false},
+                {"seatNumber": "A4", "booked": false},
+                {"seatNumber": "A5", "booked": false}
+              ]
+            },
+            {
+              "showId": 38,
+              "time": "Måndagar, 18.00",
+              "room": "Kammaren",
+              "seats": [
+                {"seatNumber": "A1", "booked": false},
+                {"seatNumber": "A2", "booked": true},
+                {"seatNumber": "A3", "booked": false},
+                {"seatNumber": "A4", "booked": false},
+                {"seatNumber": "A5", "booked": false}
+              ]
+            },
+            {
+              "showId": 39,
+              "time": "Måndagar, 18.00",
+              "room": "Kammaren",
+              "seats": [
+                {"seatNumber": "A1", "booked": false},
+                {"seatNumber": "A2", "booked": true},
+                {"seatNumber": "A3", "booked": false},
+                {"seatNumber": "A4", "booked": false},
+                {"seatNumber": "A5", "booked": false}
+              ]
+            }
+          ]
+        },
+        {
+          "movieId": 10,
+          "title": "Shadow of the Vampire",
+          "duration": "1t 32m",
+          "picture": "/Assets/shadow.jpg",
+          "description": "Under inspelningen av den tyska klassiska skräckfilmen 'Nosferatu' börjar allt underligare saker inträffa för de inblandade. Delar av besättningen försvinner i samma vända som en av skådespelarna börjar ta sin roll på lite väl stort allvar.",
+          "shows": [
+            {
+              "showId": 40,
+              "time": "Måndagar, 18.00",
+              "room": "Kammaren",
+              "seats": [
+                {"seatNumber": "A1", "booked": false},
+                {"seatNumber": "A2", "booked": true},
+                {"seatNumber": "A3", "booked": false},
+                {"seatNumber": "A4", "booked": false},
+                {"seatNumber": "A5", "booked": false}
+              ]
+            },
+            {
+              "showId": 41,
+              "time": "Måndagar, 18.00",
+              "room": "Salongen",
+              "seats": [
+                {"seatNumber": "A1", "booked": false},
+                {"seatNumber": "A2", "booked": true},
+                {"seatNumber": "A3", "booked": false},
+                {"seatNumber": "A4", "booked": false},
+                {"seatNumber": "A5", "booked": false}
+              ]
+            },
+            {
+              "showId": 42,
+              "time": "Måndagar, 18.00",
+              "room": "Kammaren",
+              "seats": [
+                {"seatNumber": "A1", "booked": false},
+                {"seatNumber": "A2", "booked": true},
+                {"seatNumber": "A3", "booked": false},
+                {"seatNumber": "A4", "booked": false},
+                {"seatNumber": "A5", "booked": false}
+              ]
+            },
+            {
+              "showId": 43,
+              "time": "Måndagar, 18.00",
+              "room": "Kammaren",
+              "seats": [
+                {"seatNumber": "A1", "booked": false},
+                {"seatNumber": "A2", "booked": true},
+                {"seatNumber": "A3", "booked": false},
+                {"seatNumber": "A4", "booked": false},
+                {"seatNumber": "A5", "booked": false}
+              ]
+            },
+            {
+              "showId": 44,
+              "time": "Måndagar, 18.00",
+              "room": "Kammaren",
+              "seats": [
+                {"seatNumber": "A1", "booked": false},
+                {"seatNumber": "A2", "booked": true},
+                {"seatNumber": "A3", "booked": false},
+                {"seatNumber": "A4", "booked": false},
+                {"seatNumber": "A5", "booked": false}
+              ]
+            }
+          ]
+        }
+      ]
+  }
