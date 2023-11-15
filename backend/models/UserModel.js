@@ -1,9 +1,9 @@
 const { getUsersFromDB } = require("./utils");
 
-function authenticate(username, password) {
+function authenticate(name, password) {
     const allUsers = getUsersFromDB();
     // check if username exists
-    const foundUser = allUsers.find(user => user.username === username);
+    const foundUser = allUsers.find(user => user.name === name);
 
     if (!foundUser) {
         return false;
@@ -14,21 +14,19 @@ function authenticate(username, password) {
     return isMatching;
 }
 
-
-
 function getAllUsers() {
     const allUsers = getUsersFromDB();
 
     // protect the password
-    allUsers.forEach(user => delete user.password);
+    allUsers.forEach(users => delete users.password);
 
     return allUsers;
 }
 
-function getUserByUsername(username) {
+function getUserByUsername(name) {
     const allUsers = getUsersFromDB();
 
-    const foundUser = allUsers.find(user => user.username === username);
+    const foundUser = allUsers.find(user => user.name === name);
 
      // protect password
      delete foundUser.password;

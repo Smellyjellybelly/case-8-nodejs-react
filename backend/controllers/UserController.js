@@ -4,11 +4,11 @@ const UserModel = require("../models/UserModel");
 const userSessions = {};
 
 function handleSignIn(req, res) {
-    const { username, password } = req.body;
+    const { name, password } = req.body;
 
-    console.log("Received Sign In Request:", username, password);
+    console.log("Received Sign In Request:", name, password);
 
-    const isAuthenticated = UserModel.authenticate(username, password);
+    const isAuthenticated = UserModel.authenticate(name, password);
 
     if (!isAuthenticated) {
         console.log("Signin failed");
@@ -18,7 +18,7 @@ function handleSignIn(req, res) {
 
     // Register a new session
     const sessionKey = crypto.randomBytes(20).toString('base64');
-    userSessions[username] = sessionKey;
+    userSessions[name] = sessionKey;
 
     
     // Return a success message
@@ -36,13 +36,13 @@ function handleGetAllUsers(req, res) {
 
 function handleGetUserByUsername(req, res) {
 
-    const { username } = req.params;
+    const { name } = req.params;
     
     if (!Object.values(userSessions).includes(req.query.sessionKey)) {
         return res.status(401).send("Not authorized");
     }
 
-    const foundUser = UserModel.getUserByUsername(username);
+    const foundUser = UserModel.getUserByUsername(name);
 
     if (!foundUser) {
         return res.status(404).send("User Not found");
