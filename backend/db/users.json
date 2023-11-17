@@ -1,1 +1,20 @@
-[{"userId":1,"name":"user1","email":"user1@example.com","password":"abc123","bookings":[1,2,{"bookingId":3,"userId":1,"movieId":3,"showId":10,"bookingTime":"2023-01-01T18:00:00","name":"user1","email":"user1@example.com"}]},{"userId":2,"name":"user2","email":"user2@example.com","password":"abcd1234","bookings":[1,2,{"bookingId":3,"userId":2,"movieId":3,"showId":10,"bookingTime":"2023-01-01T18:00:00","name":"user2","email":"user2@example.com"},{"bookingId":4,"userId":2,"movieId":3,"showId":10,"bookingTime":"2023-01-01T18:00:00","name":"user2","email":"user2@example.com"},{"bookingId":5,"userId":2,"movieId":0,"showId":1,"bookingTime":"2023-01-01T18:00:00","name":"user2","email":"user2@example.com"}]}]
+[
+    {
+        "userId": 1,
+        "name": "user1",
+        "email": "user1@example.com",
+        "password": "abc123",
+        "bookings": [
+            
+        ]
+    },
+    {
+        "userId": 2,
+        "name": "user2",
+        "email": "user2@example.com",
+        "password": "abcd1234",
+        "bookings": [
+            
+        ]
+    }
+]

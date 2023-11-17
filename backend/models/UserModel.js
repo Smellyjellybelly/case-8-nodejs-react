@@ -14,6 +14,8 @@ function authenticate(name, password) {
     return isMatching;
 }
 
+
+
 function getAllUsers() {
     const allUsers = getUsersFromDB();
 
@@ -38,5 +40,5 @@ function getUserByUsername(name) {
 module.exports = {
     getAllUsers,
     getUserByUsername,
-    authenticate
+    authenticate,
 }
